@@ -1,0 +1,1587 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;
+
+500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Heavy.woff") format("woff"), url("../fonts/FuturaPT-Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Light.woff") format("woff"), url("../fonts/FuturaPT-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  font-display: swap;
+  src: url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Heavy.woff") format("woff"), url("../fonts/Gilroy-Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'egghead';
+  src: url("../fonts/egghead.ttf?4gdq28") format("truetype"), url("../fonts/egghead.woff?4gdq28") format("woff"), url("../fonts/egghead.svg?4gdq28#egghead") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'egghead' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-android:before {
+  content: "\e900";
+}
+
+._icon-arrow:before {
+  content: "\e901";
+  color: #fff;
+}
+
+._icon-facebook:before {
+  content: "\e902";
+}
+
+._icon-flutter:before {
+  content: "\e903";
+}
+
+._icon-ionic:before {
+  content: "\e904";
+}
+
+._icon-iOS:before {
+  content: "\e905";
+}
+
+._icon-location:before {
+  content: "\e906";
+  color: #6056dd;
+}
+
+._icon-mail:before {
+  content: "\e907";
+  color: #3862ef;
+}
+
+._icon-phone:before {
+  content: "\e908";
+  color: #ff9400;
+}
+
+._icon-react-native:before {
+  content: "\e909";
+}
+
+._icon-swift:before {
+  content: "\e90a";
+}
+
+._icon-twitter:before {
+  content: "\e90b";
+}
+
+/* Обнуляющий стиль */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol li,
+ul li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  line-height: 1;
+  font-family: Poppins;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18, 83px;
+  min-height: 44px;
+  padding: 0px 16px 0px 31px;
+  background-color: #70C851;
+}
+
+.btn_arrow span {
+  display: inline-block;
+  padding-right: 28px;
+  background: url("../img/icons/arrow.svg") right center no-repeat;
+}
+
+/* -------------- */
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+._container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+._ibg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.burger {
+  display: none;
+}
+
+/* -------------- */
+
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+._no-webp .shell{
+  background: url("../img/sky.jpg") 0 0/cover no-repeat; }
+
+.shell {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.shell::before,
+.shell::after {
+  content: "MadeinHome Studios presents";
+  font-family: Gilroy;
+  padding: 200px;
+  font-weight: 700;
+  font-size: 100px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 50;
+  background-color: #042b36;
+  -webkit-animation: startbf 4s linear forwards 5s;
+          animation: startbf 4s linear forwards 5s;
+}
+
+@-webkit-keyframes startbf {
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes startbf {
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+._no-webp .shell::after{
+  background: #042b36 url("../img/city-3.png") right bottom/auto 50% no-repeat; }
+
+.shell::after {
+  content: "Night runner";
+  font-family: FuturaPT;
+  font-weight: 500;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 51;
+  opacity: 0;
+  -webkit-animation: start 5s linear 4s;
+          animation: start 5s linear 4s;
+}
+
+@-webkit-keyframes start {
+  10% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+}
+
+@keyframes start {
+  10% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+}
+
+._no-webp .shell__road{
+  background: url("../img/road.png") 0 0/auto 250px repeat-x; }
+
+.shell__road {
+  height: 250px;
+  width: 300%;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  -webkit-animation: shell__road 3s linear infinite 57s;
+          animation: shell__road 3s linear infinite 57s;
+}
+
+@-webkit-keyframes shell__road {
+  100% {
+    -webkit-transform: translateX(-2225px);
+            transform: translateX(-2225px);
+  }
+}
+
+@keyframes shell__road {
+  100% {
+    -webkit-transform: translateX(-2225px);
+            transform: translateX(-2225px);
+  }
+}
+
+._no-webp .shell__city{
+  background: url("../img/city-4.png") 0 0/auto 650px repeat-x; }
+
+.shell__city {
+  height: 600px;
+  width: 300%;
+  position: absolute;
+  bottom: 250px;
+  z-index: 2;
+  -webkit-animation: city 10s linear infinite 57s;
+          animation: city 10s linear infinite 57s;
+}
+
+@-webkit-keyframes city {
+  100% {
+    -webkit-transform: translateX(-1157px);
+            transform: translateX(-1157px);
+  }
+}
+
+@keyframes city {
+  100% {
+    -webkit-transform: translateX(-1157px);
+            transform: translateX(-1157px);
+  }
+}
+
+._no-webp .shell__mountains{
+  background: url("../img/mountains-4.png") 0 0/auto 650px repeat-x; }
+
+.shell__mountains {
+  height: 600px;
+  width: 700%;
+  position: absolute;
+  bottom: 250px;
+  z-index: 1;
+  -webkit-animation: mountains 90s linear infinite 57s;
+          animation: mountains 90s linear infinite 57s;
+}
+
+@-webkit-keyframes mountains {
+  100% {
+    -webkit-transform: translateX(-4657px);
+            transform: translateX(-4657px);
+  }
+}
+
+@keyframes mountains {
+  100% {
+    -webkit-transform: translateX(-4657px);
+            transform: translateX(-4657px);
+  }
+}
+
+.mafia {
+  position: absolute;
+  bottom: 190px;
+  left: 1100px;
+  z-index: 7;
+}
+
+.mafia img {
+  width: 70px;
+  -webkit-animation: mafia 2s ease-in forwards 20s, mafianone 1ms linear forwards 59s;
+          animation: mafia 2s ease-in forwards 20s, mafianone 1ms linear forwards 59s;
+}
+
+@-webkit-keyframes mafia {
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: 80% 95%;
+            transform-origin: 80% 95%;
+  }
+}
+
+@keyframes mafia {
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transform-origin: 80% 95%;
+            transform-origin: 80% 95%;
+  }
+}
+
+@-webkit-keyframes mafianone {
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes mafianone {
+  100% {
+    opacity: 0;
+  }
+}
+
+.mafia::before,
+.mafia::after {
+  content: "Алло, привет, Вито. Товар у меня. Жду тебя на восточном шоссе";
+  padding: 20px;
+  font-family: Gilroy;
+  font-weight: 700;
+  width: 200px;
+  position: absolute;
+  z-index: 15;
+  bottom: 150px;
+  left: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0;
+}
+
+.mafia::before {
+  -webkit-animation: call 5s linear 9s;
+          animation: call 5s linear 9s;
+}
+
+@-webkit-keyframes call {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+@keyframes call {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+.mafia::after {
+  content: "А ты еще кто такой? С маскарада пришел? Какую еще... ААА...";
+  -webkit-animation: mono 5s linear 15s;
+          animation: mono 5s linear 15s;
+}
+
+@-webkit-keyframes mono {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+@keyframes mono {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+.car__body {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  bottom: 130px;
+  -webkit-transform: translate(-500%);
+      -ms-transform: translate(-500%);
+          transform: translate(-500%);
+  z-index: 5;
+  -webkit-animation: car-first 5s cubic-bezier(0, 0.9, 0, 0.9) forwards 35s;
+          animation: car-first 5s cubic-bezier(0, 0.9, 0, 0.9) forwards 35s;
+}
+
+@-webkit-keyframes car-first {
+  100% {
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
+
+@keyframes car-first {
+  100% {
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
+
+.car__body::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  right: 0;
+  -webkit-box-shadow: 200px 30px 100px #c5ff24;
+          box-shadow: 200px 30px 100px #c5ff24;
+  -webkit-animation: light 0.1s linear forwards 40s;
+          animation: light 0.1s linear forwards 40s;
+}
+
+@-webkit-keyframes light {
+  100% {
+    -webkit-box-shadow: 200px 30px 100px #c5ff24, 300px 30px 100px #c5ff24, 400px 30px 100px #c5ff24;
+            box-shadow: 200px 30px 100px #c5ff24, 300px 30px 100px #c5ff24, 400px 30px 100px #c5ff24;
+  }
+}
+
+@keyframes light {
+  100% {
+    -webkit-box-shadow: 200px 30px 100px #c5ff24, 300px 30px 100px #c5ff24, 400px 30px 100px #c5ff24;
+            box-shadow: 200px 30px 100px #c5ff24, 300px 30px 100px #c5ff24, 400px 30px 100px #c5ff24;
+  }
+}
+
+.car__body img {
+  width: 100%;
+  -webkit-animation: car 1s linear infinite;
+          animation: car 1s linear infinite;
+}
+
+@-webkit-keyframes car {
+  100% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+
+  50% {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+
+  0% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+@keyframes car {
+  100% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+
+  50% {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+
+  0% {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+
+.car__wheels {
+  left: 50%;
+  position: absolute;
+  bottom: -6px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 6;
+}
+
+.car__wheels img {
+  width: 73px;
+  height: 73px;
+  -webkit-animation: wheels-first 5s cubic-bezier(0, 0.9, 0, 0.9) 8 forwards, wheels-inf 0.5s linear infinite 57s;
+          animation: wheels-first 5s cubic-bezier(0, 0.9, 0, 0.9) 8 forwards, wheels-inf 0.5s linear infinite 57s;
+}
+
+.car__wheels img.car__wheel_r {
+  width: 68px;
+  height: 68px;
+}
+
+@-webkit-keyframes wheels-first {
+  0% {
+    -webkit-transform: rotate(-3600deg);
+            transform: rotate(-3600deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes wheels-first {
+  0% {
+    -webkit-transform: rotate(-3600deg);
+            transform: rotate(-3600deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes wheels-inf {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes wheels-inf {
+  0% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.car__wheel_l {
+  position: absolute;
+  top: -78px;
+  left: -175px;
+}
+
+.car__wheel_r {
+  position: absolute;
+  top: -72px;
+  left: 130px;
+}
+
+.car__driver::before {
+  content: "О черт, это же Джо... Я найду гада, который это сделал!";
+  padding: 20px;
+  font-family: Gilroy;
+  font-weight: 700;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  bottom: 320px;
+  left: 45%;
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0;
+  -webkit-animation: driver-mono 7s linear 45s;
+          animation: driver-mono 7s linear 45s;
+}
+
+@-webkit-keyframes driver-mono {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+@keyframes driver-mono {
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
+.car__driver img {
+  width: 55px;
+  position: absolute;
+  bottom: 150px;
+  left: 48%;
+  z-index: 4;
+  opacity: 0;
+  -webkit-animation: driver 15s linear 40s;
+          animation: driver 15s linear 40s;
+}
+
+@-webkit-keyframes driver {
+  0% {
+    opacity: 1;
+  }
+
+  5% {
+    bottom: 180px;
+  }
+
+  25% {
+    left: 55%;
+  }
+
+  75% {
+    left: 55%;
+  }
+
+  95% {
+    bottom: 180px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes driver {
+  0% {
+    opacity: 1;
+  }
+
+  5% {
+    bottom: 180px;
+  }
+
+  25% {
+    left: 55%;
+  }
+
+  75% {
+    left: 55%;
+  }
+
+  95% {
+    bottom: 180px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.man {
+  position: absolute;
+  left: -180%;
+  bottom: 265px;
+  z-index: 4;
+  -webkit-transform: scale(2.8);
+      -ms-transform: scale(2.8);
+          transform: scale(2.8);
+  -webkit-animation: manfirst 15s linear forwards 0s, mansec 5s linear forwards 23s;
+          animation: manfirst 15s linear forwards 0s, mansec 5s linear forwards 23s;
+}
+
+@-webkit-keyframes manfirst {
+  100% {
+    left: 65%;
+  }
+}
+
+@keyframes manfirst {
+  100% {
+    left: 65%;
+  }
+}
+
+@-webkit-keyframes mansec {
+  100% {
+    left: 120%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    bottom: 235px;
+  }
+}
+
+@keyframes mansec {
+  100% {
+    left: 120%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    bottom: 235px;
+  }
+}
+
+.man::before {
+  content: "Привет, Джо. Ты в сделку не входил...";
+  padding: 20px;
+  font-family: Gilroy;
+  font-weight: 700;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  bottom: 10px;
+  right: -40px;
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0;
+  -webkit-animation: man-mono 7s linear 16s;
+          animation: man-mono 7s linear 16s;
+}
+
+@-webkit-keyframes man-mono {
+  10% {
+    opacity: 1;
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+  }
+}
+
+@keyframes man-mono {
+  10% {
+    opacity: 1;
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(0.35);
+            transform: scale(0.35);
+  }
+}
+
+.man__body img {
+  width: 30px;
+  -webkit-animation: man 1s linear infinite;
+          animation: man 1s linear infinite;
+}
+
+@-webkit-keyframes man {
+  0% {
+    -webkit-transform: skew(0deg, 0deg);
+            transform: skew(0deg, 0deg);
+  }
+
+  50% {
+    -webkit-transform: skew(5deg, -10deg);
+            transform: skew(5deg, -10deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0deg, 0deg);
+            transform: skew(0deg, 0deg);
+  }
+}
+
+@keyframes man {
+  0% {
+    -webkit-transform: skew(0deg, 0deg);
+            transform: skew(0deg, 0deg);
+  }
+
+  50% {
+    -webkit-transform: skew(5deg, -10deg);
+            transform: skew(5deg, -10deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0deg, 0deg);
+            transform: skew(0deg, 0deg);
+  }
+}
+
+.man__leg {
+  width: 10px;
+  position: absolute;
+  top: 14px;
+}
+
+.man__leg_1 {
+  left: 8px;
+  -webkit-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  -webkit-animation: leg-1 0.8s linear 19, leg1 0.8s linear infinite 23s;
+          animation: leg-1 0.8s linear 19, leg1 0.8s linear infinite 23s;
+}
+
+@-webkit-keyframes leg-1 {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(92deg);
+            transform: rotate(92deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes leg-1 {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(92deg);
+            transform: rotate(92deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@-webkit-keyframes leg1 {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(92deg);
+            transform: rotate(92deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+@keyframes leg1 {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(92deg);
+            transform: rotate(92deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+}
+
+.man__leg_2 {
+  left: 9.5px;
+  -webkit-transform: rotate(80deg);
+      -ms-transform: rotate(80deg);
+          transform: rotate(80deg);
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-animation: leg-2 0.8s linear 19, leg2 0.8s linear infinite 23s;
+          animation: leg-2 0.8s linear 19, leg2 0.8s linear infinite 23s;
+}
+
+@-webkit-keyframes leg-2 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-17deg);
+            transform: rotate(-17deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@keyframes leg-2 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-17deg);
+            transform: rotate(-17deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@-webkit-keyframes leg2 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-17deg);
+            transform: rotate(-17deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@keyframes leg2 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-17deg);
+            transform: rotate(-17deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  75% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+.man__weapun img {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  left: 40%;
+  opacity: 0;
+  -webkit-animation: weapun 1s linear forwards 17s;
+          animation: weapun 1s linear forwards 17s;
+}
+
+@-webkit-keyframes weapun {
+  0% {
+    opacity: 1;
+  }
+
+  99% {
+    -webkit-transform: translate(47px, 8px) rotate(720deg);
+            transform: translate(47px, 8px) rotate(720deg);
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes weapun {
+  0% {
+    opacity: 1;
+  }
+
+  99% {
+    -webkit-transform: translate(47px, 8px) rotate(720deg);
+            transform: translate(47px, 8px) rotate(720deg);
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+._no-webp .cloud{
+  background: url("../img/cloud.png") 0 0/contain no-repeat; }
+
+.cloud {
+  position: absolute;
+  top: 150px;
+  left: -650px;
+  z-index: 1;
+  width: 200px;
+  height: 100px;
+  -webkit-animation: cloud 250s linear infinite;
+          animation: cloud 250s linear infinite;
+}
+
+._no-webp .cloud::before{
+  background: url("../img/cloud-2.png") 0 0/contain no-repeat; }
+
+.cloud::before {
+  content: "";
+  width: 250px;
+  height: 170px;
+  position: absolute;
+  top: -50px;
+  left: -410px;
+}
+
+@-webkit-keyframes cloud {
+  100% {
+    -webkit-transform: translate(2500px);
+            transform: translate(2500px);
+  }
+}
+
+@keyframes cloud {
+  100% {
+    -webkit-transform: translate(2500px);
+            transform: translate(2500px);
+  }
+}
+
+._no-webp .cloud::after{
+  background: url("../img/cloud-2.png") 0 0/contain no-repeat; }
+
+.cloud::after {
+  content: "";
+  width: 150px;
+  height: 70px;
+  position: absolute;
+  -webkit-animation: cloudafter 250s linear infinite;
+          animation: cloudafter 250s linear infinite;
+}
+
+@-webkit-keyframes cloudafter {
+  100% {
+    -webkit-transform: translate(2000px);
+            transform: translate(2000px);
+  }
+}
+
+@keyframes cloudafter {
+  100% {
+    -webkit-transform: translate(2000px);
+            transform: translate(2000px);
+  }
+}
+
+.cloud-2 {
+  position: absolute;
+  top: 100px;
+  left: -420px;
+  z-index: 1;
+  -webkit-animation: cloud 170s linear infinite;
+          animation: cloud 170s linear infinite;
+}
+
+@keyframes cloud {
+  100% {
+    -webkit-transform: translate(2500px);
+            transform: translate(2500px);
+  }
+}
+
+.the {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-family: FuturaPT;
+  font-weight: 600;
+  padding: 100px;
+  font-size: 20px;
+  background-color: #092b36;
+  opacity: 0;
+  -webkit-animation: end 30s linear forwards 75s;
+          animation: end 30s linear forwards 75s;
+}
+
+.the h1 {
+  font-size: 40px;
+  font-family: Gilroy;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.the h2 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+@-webkit-keyframes end {
+  10% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes end {
+  10% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.the__end {
+  position: relative;
+  top: 100%;
+  -webkit-animation: endtext 15s linear forwards 75s;
+          animation: endtext 15s linear forwards 75s;
+}
+
+@-webkit-keyframes endtext {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    color: #5d2e5e;
+  }
+
+  80% {
+    font-size: 60px;
+    color: #5d2e5e;
+  }
+
+  100% {
+    opacity: 0;
+    top: -20%;
+  }
+}
+
+@keyframes endtext {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    color: #5d2e5e;
+  }
+
+  80% {
+    font-size: 60px;
+    color: #5d2e5e;
+  }
+
+  100% {
+    opacity: 0;
+    top: -20%;
+  }
+}
+
+@media (max-width: 1180px) {
+  ._container {
+    max-wigth: 970px;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  ._container {
+    max-wigth: 750px;
+  }
+
+  .burger {
+    display: block;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .burger span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00293F;
+    margin: -1px 0 0 0;
+  }
+
+  .burger span:first-child {
+    top: 0;
+    margin: 0;
+  }
+
+  .burger span:last-child {
+    top: auto;
+    bottom: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  ._container {
+    max-width: none;
+  }
+}
+
+._webp .shell{ background: url(../img/sky.webp) 0 0/cover no-repeat; }
+
+._webp .shell::after{ background: #042b36 url(../img/city-3.webp) right bottom/auto 50% no-repeat; }
+
+._webp .shell__road{ background: url(../img/road.webp) 0 0/auto 250px repeat-x; }
+
+._webp .shell__city{ background: url(../img/city-4.webp) 0 0/auto 650px repeat-x; }
+
+._webp .shell__mountains{ background: url(../img/mountains-4.webp) 0 0/auto 650px repeat-x; }
+
+._webp .cloud{ background: url(../img/cloud.webp) 0 0/contain no-repeat; }
+
+._webp .cloud::before{ background: url(../img/cloud-2.webp) 0 0/contain no-repeat; }
+
+._webp .cloud::after{ background: url(../img/cloud-2.webp) 0 0/contain no-repeat; }
